@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style1.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <br><br><br>
+    <h1 class="textClass">Here you are.. Run the Battle </h1>
+    <br><br><br>
+    <div id="container">
+        <div>
+            <div id="selection-container1">
+            </div>
+            <div>
+                <br>
+                <p id="showPointsUser"> / </p>
+                <br>
+                <h4 class="attacks-align" onclick="attack1()"> Attack 1 </h4>
+                <h4 class="attacks-align" onclick="attack2()"> Attack 2 </h4>
+                <h4 class="attacks-align" onclick="attack3()"> Attack 3 </h4>
+                <h4 class="attacks-align" onclick="attack4()"> Attack 4 </h4>
+            </div>
+        </div>
+
+        <div>
+            <h2>VS</h2>
+        </div>
+
+        <div id="auto-container">
+            <img id="" src="images/Pikachu1.gif" alt="">
+            <br><br><br>
+            <p id="showPointsComputer"> </p>
+            <br><br><br><br><br><br>
+
+        </div>
+
+    </div>
+
+    <br><br><br>
+
+    <button id="noCookies" onClick="removeCookie()" class="button button-text">Go to Home..</button>
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="/js/battle.js"></script>
+
+</body>
+
+</html>

@@ -1,1 +1,38 @@
-Hello World
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style1.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <h1 class="textClass">Ready for the Pokémon Battle!</h1>
+    <br><br><br><br>
+    <h1 class="textClass">Choose your shield</h1>
+    
+    <br><br><br><br><br>
+    <div id="selection-container">
+        <div id= "selection1">
+            <img   src="images/Mimikyu.png" alt="mimikyu">
+            <h2 id="character1" onclick="select('mimikyu')"> <a href="battle.html">Mimikyu</a> </h2>
+        </div>
+
+        <div id= "selection2">
+            <img   src="images/Charizard.png" alt="charizard">
+            <h2 id="character2" onclick="select('charizard')"> <a href="battle.html"> Charizard</a> </h2>
+        </div>
+
+        <div id= "selection3">
+            <img  src="images/Umbreon.png" alt="umbreon">
+            <h2 id="character3" onclick="select('umbreon')"> <a href="battle.html"> Umbreon</a> </h2>
+        </div>
+    </div >
+    <script src="https://cdn.jsdelivr.net/npm/js-cookie@2/src/js.cookie.min.js"></script>
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
